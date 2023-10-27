@@ -1,0 +1,21 @@
+header{
+    height: 400px;
+    width:800px;
+    font-size: 25px;
+    border: 5px solid black;
+}
+/* 1.Use the Descendant combinator selector to remove list style type bullet points and text underlining of the
+Menu list items */
+ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+/* 2.Use the child combinator to display the menu list item inline */
+ul > li{
+    display: inline;
+}
+
+/* 3.Use the Adjacent sibling combinator selector to apply some margin between the menu list items. */
+li + li{
+    margin:10px;
+}

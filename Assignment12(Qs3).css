@@ -1,0 +1,14 @@
+body{
+    height: 400px;
+    width:800px;
+    font-size: 25px;
+    border: 5px solid black;
+}
+h1::before
+{
+content: "Pseudo";
+}
+h1::after
+{
+content: "Selector";
+}
